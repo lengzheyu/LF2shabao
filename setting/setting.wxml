@@ -1,0 +1,53 @@
+<form bindsubmit='submitFunc'>
+  
+<view class='tianjia'>添加课程页面</view>
+<view class='keming'>
+  <view class='btn'>课程名称 </view>
+  <view class='btn2'>
+    <input name='input_class' type='text' maxlength='20' placeholder="例：高等数学（A）" focus="{{focus}}" />
+  </view>
+</view>
+
+<view class='keaddr'>
+  <view class='btn'>上课地点</view>
+  <view class='btn2'>
+    <input name='input_pos' type='text' maxlength='10' placeholder="例：N319" focus="{{focus2}}" />
+  </view>
+</view>
+
+<view class='kelength'>
+  <view class='btn'>上课时间</view>
+  <view class='btn2'>
+    <input name='input_time' type='text' maxlength='16' placeholder="例：08:00-08:45" focus="{{focus3}}" />
+  </view>
+</view>
+
+<view class='kelength'>
+  <view class='btn'>当日课次序</view>
+  <view class='btn2'>
+    <input name='input_week' type='number' maxlength='1' placeholder="例：若当日高数之后有线代，则为线代填写2" focus="{{focus3}}" />
+  </view>
+</view>
+
+<view class='skzhoushu'>上课起止周数</view>
+
+<view class='kezhoushu1'>
+  <view class='btn'>开始周数</view>
+  <view class='btn2'>
+    <input type='number' minlength='1' maxlength='2' placeholder="尚未实装" focus="{{focus4}}" />
+  </view>
+</view>
+
+<view class='kezhoushu2'>
+  <view class='btn'>结束周数</view>
+  <view class='btn2'>
+    <input type='number' minlength='1' maxlength='2' placeholder="尚未实装" focus="{{focus5}}" />
+  </view>
+</view>
+
+<view>
+  <button formType="submit">保存</button>
+</view>
+
+
+</form>
